@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 500px;
+  margin: auto;
+}
+
+.main-nav-section {
+  width: 300px;
+  margin: auto;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.move-icon {
+  height: 50px;
+}
+
+.rock-btn,
+.paper-btn,
+.scissors-btn {
+  background-color: transparent;
+  border: 1px solid white;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.results {
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.moves-img {
+  height: 50px;
+}
+
+.reset-btn,
+.autoplay-btn {
+  background-color: white;
+  border: none;
+  padding: 10px;
+  font-size: 15px;
+  cursor: pointer;
+}
